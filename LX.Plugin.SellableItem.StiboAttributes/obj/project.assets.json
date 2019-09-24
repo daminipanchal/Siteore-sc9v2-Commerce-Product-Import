@@ -1,0 +1,215 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "SSH.NET/2016.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Renci.SshNet.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Renci.SshNet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SSH.NET/2016.0.0": {
+      "sha512": "PDvKSy2fK9D1JGJLQtIrefDUBziClpz4BeiH9gF4vYr3I0kY4aI2FPFK9Y29lpXMtMk7OCnqOwhzTN63fNqYhw==",
+      "type": "package",
+      "path": "ssh.net/2016.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Renci.SshNet.dll",
+        "lib/net35/Renci.SshNet.xml",
+        "lib/net40/Renci.SshNet.dll",
+        "lib/net40/Renci.SshNet.xml",
+        "lib/netstandard1.3/Renci.SshNet.dll",
+        "lib/netstandard1.3/Renci.SshNet.xml",
+        "lib/sl4/Renci.SshNet.dll",
+        "lib/sl4/Renci.SshNet.xml",
+        "lib/sl5/Renci.SshNet.dll",
+        "lib/sl5/Renci.SshNet.xml",
+        "lib/uap10/Renci.SshNet.dll",
+        "lib/uap10/Renci.SshNet.xml",
+        "lib/wp71/Renci.SshNet.dll",
+        "lib/wp71/Renci.SshNet.xml",
+        "lib/wp8/Renci.SshNet.dll",
+        "lib/wp8/Renci.SshNet.xml",
+        "ssh.net.2016.0.0.nupkg.sha512",
+        "ssh.net.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "SSH.NET >= 2016.0.0",
+      "Sitecore.Commerce.Core >= 4.0.*",
+      "Sitecore.Commerce.Plugin.Catalog >= 4.0.*",
+      "Sitecore.Commerce.Plugin.Coupons >= 4.0.*",
+      "Sitecore.Commerce.Plugin.FaultInjection >= 4.0.*",
+      "Sitecore.Commerce.Plugin.Management >= 4.0.*",
+      "Sitecore.Commerce.Plugin.Orders.DelayedAvailability >= 4.0.*",
+      "Sitecore.Commerce.Plugin.Tax >= 4.0.*",
+      "Sitecore.Commerce.Plugin.Views >= 4.0.*"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\development\\LX.Plugin.SellableItem.StiboAttributes\\LX.Plugin.SellableItem.StiboAttributes.csproj",
+      "projectName": "LX.Plugin.SellableItem.StiboAttributes",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\development\\LX.Plugin.SellableItem.StiboAttributes\\LX.Plugin.SellableItem.StiboAttributes.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\development\\LX.Plugin.SellableItem.StiboAttributes\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "allWarningsAsErrors": true,
+        "noWarn": [
+          "NU1603",
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "SSH.NET": {
+            "target": "Package",
+            "version": "[2016.0.0, )"
+          },
+          "Sitecore.Commerce.Core": {
+            "target": "Package",
+            "version": "[4.0.*, )"
+          },
+          "Sitecore.Commerce.Plugin.Catalog": {
+            "target": "Package",
+            "version": "[4.0.*, )"
+          },
+          "Sitecore.Commerce.Plugin.Coupons": {
+            "target": "Package",
+            "version": "[4.0.*, )"
+          },
+          "Sitecore.Commerce.Plugin.FaultInjection": {
+            "target": "Package",
+            "version": "[4.0.*, )"
+          },
+          "Sitecore.Commerce.Plugin.Management": {
+            "target": "Package",
+            "version": "[4.0.*, )"
+          },
+          "Sitecore.Commerce.Plugin.Orders.DelayedAvailability": {
+            "target": "Package",
+            "version": "[4.0.*, )"
+          },
+          "Sitecore.Commerce.Plugin.Tax": {
+            "target": "Package",
+            "version": "[4.0.*, )"
+          },
+          "Sitecore.Commerce.Plugin.Views": {
+            "target": "Package",
+            "version": "[4.0.*, )"
+          }
+        }
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Sitecore.Commerce.Plugin.Orders.DelayedAvailability. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Sitecore.Commerce.Plugin.Orders.DelayedAvailability",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Sitecore.Commerce.Plugin.Tax. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Sitecore.Commerce.Plugin.Tax",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Sitecore.Commerce.Plugin.Catalog. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Sitecore.Commerce.Plugin.Catalog",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Sitecore.Commerce.Core. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Sitecore.Commerce.Core",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Sitecore.Commerce.Plugin.Views. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Sitecore.Commerce.Plugin.Views",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Sitecore.Commerce.Plugin.Management. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Sitecore.Commerce.Plugin.Management",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Sitecore.Commerce.Plugin.Coupons. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Sitecore.Commerce.Plugin.Coupons",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Sitecore.Commerce.Plugin.FaultInjection. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Sitecore.Commerce.Plugin.FaultInjection",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    }
+  ]
+}
