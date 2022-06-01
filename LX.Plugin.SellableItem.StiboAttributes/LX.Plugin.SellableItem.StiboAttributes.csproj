@@ -51,7 +51,7 @@
     <PackageReference Include="Sitecore.Commerce.Plugin.Orders.DelayedAvailability" Version="4.0.*" />
     <PackageReference Include="Sitecore.Commerce.Plugin.Tax" Version="4.0.*" />
     <PackageReference Include="Sitecore.Commerce.Plugin.Views" Version="4.0.*" />
-    <PackageReference Include="SSH.NET" Version="2016.0.0" />
+    <PackageReference Include="SSH.NET" Version="2020.0.2" />
   </ItemGroup>
 
   <ItemGroup>
